@@ -6,12 +6,35 @@ package com.hg.test_project_2;
 
 public class Product implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Product() {
-    }
+	@org.kie.api.definition.type.Label(value = "type")
+	private java.lang.String type;
+	@org.kie.api.definition.type.Label(value = "discount")
+	private java.lang.Integer discount;
 
+	public Product() {
+	}
 
+	public java.lang.String getType() {
+		return this.type;
+	}
 
+	public void setType(java.lang.String type) {
+		this.type = type;
+	}
+
+	public java.lang.Integer getDiscount() {
+		return this.discount;
+	}
+
+	public void setDiscount(java.lang.Integer discount) {
+		this.discount = discount;
+	}
+
+	public Product(java.lang.String type, java.lang.Integer discount) {
+		this.type = type;
+		this.discount = discount;
+	}
 
 }
