@@ -4,13 +4,13 @@ import com.hg.test_project_2.Product
 
 rule "Offer for silver"
 	when 
-		productObject: Product(type=="diamond")
+		productObject: Product(type=="silver")
 	then
 		productObject.setDiscount(15);
 	end
 rule "Offer for mercury"
 	when 
-		productObject: Product(type=="gold")
+		productObject: Product(type=="mercury")
 	then
 		productObject.setDiscount(25);
 	end
