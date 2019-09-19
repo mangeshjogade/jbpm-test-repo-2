@@ -1,6 +1,6 @@
 package com.hg.test_project_2;
 
-import com.hg.model.Product
+import com.hg.test_project_2.Product
 
 rule "Offer for Diamond"
 	when 
