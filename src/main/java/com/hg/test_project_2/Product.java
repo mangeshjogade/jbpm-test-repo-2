@@ -12,7 +12,7 @@ public class Product implements java.io.Serializable {
 	private java.lang.String type;
 	@org.kie.api.definition.type.Label(value = "discount")
 	private java.lang.Integer discount;
-
+	//Comment
 	public Product() {
 	}
 
